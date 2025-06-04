@@ -1,3 +1,14 @@
+def insertar(nodo_actual, nuevo_contacto):
+    #si nodo actual is None, significa que encontro un lugar vacio para poder guardar el contacto dentro del arbol
+    if nodo_actual is None:
+        return nuevo_contacto
+    #si el nuevo_contacto es menor alfabeticamente que el nodo actual se posiciona a la izquierda, si es mayor o igual a la derecha
+    if nuevo_contacto.nombre.lower() < nodo_actual.nombre.lower():
+        nodo_actual.izquierda = insertar(nodo_actual.izquierda, nuevo_contacto)
+    else:
+        nodo_actual.derecha = insertar(nodo_actual.derecha, nuevo_contacto)
+    return nodo_actual
+
 def eliminar(nodo_actual, nombre):
     if nodo_actual is None:
         return None
