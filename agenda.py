@@ -21,6 +21,12 @@ def buscar(nodo_actual, nombre_busqueda):
     else:
         return buscar(nodo_actual.derecha, nombre_busqueda)
 
+def mostrar_contactos_en_orden(nodo_actual):
+    if nodo_actual is not None:
+        mostrar_contactos_en_orden(nodo_actual.izquierda)
+        print(f"Nombre: {nodo_actual.nombre}, Teléfono: {nodo_actual.telefono}")
+        mostrar_contactos_en_orden(nodo_actual.derecha)
+
 def eliminar(nodo_actual, nombre):
     if nodo_actual is None:
         return None
