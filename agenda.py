@@ -9,6 +9,18 @@ def insertar(nodo_actual, nuevo_contacto):
         nodo_actual.derecha = insertar(nodo_actual.derecha, nuevo_contacto)
     return nodo_actual
 
+def buscar(nodo_actual, nombre_busqueda):
+    #Si nodo actual is None significa que el contacto no esta en el arbol
+    if nodo_actual is None:
+        return None  
+    if nombre_busqueda.lower() == nodo_actual.nombre.lower():
+        return nodo_actual
+    #si el nombre es menor, busca por el lado izquierdo, caso contrario busca por el lado derecho
+    elif nombre_busqueda.lower() < nodo_actual.nombre.lower():
+        return buscar(nodo_actual.izquierda, nombre_busqueda)
+    else:
+        return buscar(nodo_actual.derecha, nombre_busqueda)
+
 def eliminar(nodo_actual, nombre):
     if nodo_actual is None:
         return None
