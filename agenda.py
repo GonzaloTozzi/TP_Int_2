@@ -1,5 +1,5 @@
 class Contacto:
-    #se crea la clase contacto, con nombre, telefono y posicion izquierda y derecha para que se pueda armar el arbol binario
+    #se crea el objeto contacto, con nombre, telefono y posicion izquierda y derecha para que se pueda armar el arbol binario
     def __init__(self, nombre, telefono):
         self.nombre = nombre
         self.telefono = telefono
@@ -105,10 +105,13 @@ def menu():
 
         if opcion == "1":
             nombre = input("Nombre: ")
-            telefono = input("Teléfono: ")
-            nuevo = Contacto(nombre, telefono)
-            nodo_raiz = insertar(nodo_raiz, nuevo)
-            print("Contacto agregado.")
+            if buscar(nodo_raiz, nombre):
+                print("Ya existe un contacto con ese nombre")
+            else:
+                telefono = input("Teléfono: ")
+                nuevo = Contacto(nombre, telefono)
+                nodo_raiz = insertar(nodo_raiz, nuevo)
+                print("Contacto agregado.")
 
         elif opcion == "2":
             nombre = input("Nombre del contacto a buscar: ")
