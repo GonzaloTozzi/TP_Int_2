@@ -108,7 +108,7 @@ def menu():
             telefono = input("Teléfono: ")
             nuevo = Contacto(nombre, telefono)
             nodo_raiz = insertar(nodo_raiz, nuevo)
-            print("Contacto agregado.")
+            print("\nContacto agregado.")
 
         elif opcion == "2":
             nombre = input("Nombre del contacto a buscar: ")
@@ -116,23 +116,23 @@ def menu():
             if encontrado:
                 print(f"Contacto encontrado: {encontrado.nombre}, Teléfono: {encontrado.telefono}")
             else:
-                print("Contacto no encontrado.")
+                print("\nContacto no encontrado.")
 
         elif opcion == "3":
             nombre = input("Nombre del contacto a eliminar: ")
             nodo_raiz = eliminar(nodo_raiz, nombre)
-            print("Contacto eliminado.")
+            print("\nContacto eliminado.")
 
         elif opcion == "4":
             print("\nLista de contactos:")
             mostrar_contactos_en_orden(nodo_raiz)
 
         elif opcion == "5":
-            print("Saliendo del programa.")
+            print("\nSaliendo del programa.")
             break
 
         else:
-            print("Opción no válida. Intenta de nuevo.")
+            print("\nOpción no válida. Intenta de nuevo.")
 
 
 menu()
