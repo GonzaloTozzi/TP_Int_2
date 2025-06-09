@@ -13,3 +13,5 @@ Para utilizar el programa lo primero que se debe hacer es correr el mismo en la 
 "4. Mostrar todos los contactos" Muestra todos los contactos ordenados alfabeticamente de menor a mayor.
 
 "5. Salir" Cierra el programa.
+
+LINK DEL VIDEO EXPLICATIVO: https://youtu.be/fBcy6UYQDxI
