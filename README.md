@@ -1,3 +1,14 @@
+Universidad Tecnologica Nacional - San Nicolás
+
+Programación I
+
+Profesores: Sebastián Bruselario y Flor Gubiotti.
+
+Alumnos: Ezequiel Franco Sanabria y Gonzalo Tozzi.
+
+Comisión: 9.
+
+
 Esta es una agenda de contactos que tiene un menu que se maneja de manera numerica, que permite agregar, borrar y buscar contactos guardados en un arbol.
 
 Nosotros decidimos añadir una lista de 60 contactos en forma de lista, que el programa luego los acomoda dentro del arbol para que se pueda ver como funciona sin necesidad de cargar los contactos iniciales uno por uno.
