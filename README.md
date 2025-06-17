@@ -1,3 +1,13 @@
+                                                    UNIVERSIDAD TECNOLOGICA NACIONAL
+
+                                    CARRERA: TECNICATURA UNIVERSITARIA EN PROGRAMACION A DISTANCIA
+
+                                                        MATERIA: PROGRAMACION 1
+
+                                                    PROFESOR: BRUSELARIO, SEBASTIAN
+
+                                            ALUMNOS:EZEQUIEL FRANCO SANABRIA - GONZALO TOZZI
+
 Esta es una agenda de contactos que tiene un menu que se maneja de manera numerica, que permite agregar, borrar y buscar contactos guardados en un arbol.
 
 Nosotros decidimos añadir una lista de 60 contactos en forma de lista, que el programa luego los acomoda dentro del arbol para que se pueda ver como funciona sin necesidad de cargar los contactos iniciales uno por uno.
