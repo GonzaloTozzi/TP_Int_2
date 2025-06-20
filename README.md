@@ -24,4 +24,4 @@ Para utilizar el programa lo primero que se debe hacer es correr el mismo en la 
 
 "5. Salir" Cierra el programa.
 
-LINK DEL VIDEO EXPLICATIVO: https://youtu.be/fBcy6UYQDxI
+LINK DEL VIDEO EXPLICATIVO: https://youtu.be/Ncy0sxArgQg
